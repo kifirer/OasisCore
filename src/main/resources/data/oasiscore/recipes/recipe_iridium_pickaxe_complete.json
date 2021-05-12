@@ -1,0 +1,30 @@
+{
+  "group": "oasiscore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "oasiscore:iridium"
+    },
+    "1": {
+      "item": "oasiscore:iridium"
+    },
+    "2": {
+      "item": "oasiscore:iridium"
+    },
+    "4": {
+      "item": "oasiscore:item_iridium_stick"
+    },
+    "7": {
+      "item": "oasiscore:item_iridium_stick"
+    }
+  },
+  "result": {
+    "item": "oasiscore:iridium_pickaxe_complete",
+    "count": 1
+  }
+}

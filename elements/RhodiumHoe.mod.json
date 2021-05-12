@@ -8,7 +8,7 @@
     "name": "Rhodium Hoe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:OasisCoreTab"
     },
     "toolType": "Hoe",
     "harvestLevel": 6,

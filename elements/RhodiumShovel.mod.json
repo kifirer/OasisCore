@@ -8,7 +8,7 @@
     "name": "Rhodium Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:OasisCoreTab"
     },
     "toolType": "Spade",
     "harvestLevel": 6,

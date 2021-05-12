@@ -8,7 +8,7 @@
     "name": "Iridium Hoe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:OasisCoreTab"
     },
     "toolType": "Hoe",
     "harvestLevel": 4,

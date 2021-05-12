@@ -8,14 +8,14 @@
     "name": "Iridium Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:OasisCoreTab"
     },
     "toolType": "Sword",
-    "harvestLevel": 4,
+    "harvestLevel": 5,
     "efficiency": 10.0,
     "attackSpeed": 1.0,
     "enchantability": 31,
-    "damageVsEntity": 4.0,
+    "damageVsEntity": 10.0,
     "usageCount": 754,
     "blocksAffected": [],
     "hasGlow": false,

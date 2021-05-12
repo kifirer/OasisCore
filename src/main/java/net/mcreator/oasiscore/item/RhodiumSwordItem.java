@@ -6,10 +6,10 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
+import net.mcreator.oasiscore.itemgroup.OasisCoreTabItemGroup;
 import net.mcreator.oasiscore.OasiscoreModElements;
 
 @OasiscoreModElements.ModElement.Tag
@@ -46,7 +46,7 @@ public class RhodiumSwordItem extends OasiscoreModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(RhodiumIngotItem.block, (int) (1)));
 			}
-		}, 3, -2.5f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -2.5f, new Item.Properties().group(OasisCoreTabItemGroup.tab)) {
 		}.setRegistryName("rhodium_sword"));
 	}
 }

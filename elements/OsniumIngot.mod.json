@@ -5,10 +5,10 @@
     "renderType": 0,
     "texture": "osnium_ingot",
     "customModelName": "Normal",
-    "name": "Osnium",
+    "name": "Osnium Ingot",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:OasisCoreTab"
     },
     "stackSize": 64,
     "enchantability": 0,

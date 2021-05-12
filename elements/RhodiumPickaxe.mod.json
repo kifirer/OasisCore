@@ -8,7 +8,7 @@
     "name": "Rhodium Pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:OasisCoreTab"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 6,

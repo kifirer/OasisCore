@@ -917,6 +917,86 @@
         ]
       },
       "path": "~/enchantments"
+    },
+    {
+      "name": "OasisCoreTab",
+      "type": "tab",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oasis_core_tab"
+    },
+    {
+      "name": "IridiumPickaxeComplete",
+      "type": "tool",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iridium_pickaxe_complete",
+      "path": "~/iridium"
+    },
+    {
+      "name": "RecipeIridiumPickaxeUpgrade",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipe_iridium_pickaxe_upgrade",
+      "path": "~/iridium"
+    },
+    {
+      "name": "ItemIridiumStick",
+      "type": "item",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_iridium_stick",
+      "path": "~/iridium"
+    },
+    {
+      "name": "RecipeIridiumPickaxeComplete",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipe_iridium_pickaxe_complete",
+      "path": "~/iridium"
+    },
+    {
+      "name": "IridiumSwordComplete",
+      "type": "tool",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iridium_sword_complete",
+      "path": "~/iridium"
+    },
+    {
+      "name": "IridiumSwordCompleteLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iridium_sword_complete_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -925,8 +1005,10 @@
     "en_us": {
       "item.oasiscore.osnium_armor_boots": "Osnium Boots",
       "block.oasiscore.white_cherry_log": "White Cherry Log",
+      "item.oasiscore.item_iridium_stick": "Iridium Stick",
       "item.oasiscore.rhodium_shovel": "Rhodium Shovel",
       "block.oasiscore.rhodium_ore": "Rhodium Ore",
+      "item.oasiscore.iridium_pickaxe_complete": "Pure Iridium Pickaxe",
       "block.oasiscore.white_cherry_fence": "White Cherry Fence",
       "item.oasiscore.osnium_armor_leggings": "Osnium Leggings",
       "enchantment.oasiscore.enchant_xp_healing": "Experience Hungry",
@@ -935,6 +1017,7 @@
       "biome.oasiscore.cherry_white_biome": "Cherry White Forest UwU",
       "block.oasiscore.white_cherry_leaves": "White Cherry Leaves",
       "item.oasiscore.iridium": "Iridium",
+      "item.oasiscore.iridium_sword_complete": "Pure Iridium Sword",
       "item.oasiscore.rhodium_armor_leggings": "Rhodium Leggings",
       "item.oasiscore.rhodium_armor_chestplate": "Rhodium Chestplate",
       "item.oasiscore.rhodium_axe": "Rhodium Axe",
@@ -951,7 +1034,7 @@
       "block.oasiscore.osnium_ore": "Osnium Ore",
       "enchantment.oasiscore.enchant_deadly_criticals": "Deadly Criticals",
       "block.oasiscore.white_cherry_slab": "White Cherry Slab",
-      "item.oasiscore.osnium_ingot": "Osnium",
+      "item.oasiscore.osnium_ingot": "Osnium Ingot",
       "block.oasiscore.rhodium_block": "Block of Rhodium",
       "item.oasiscore.iridium_axe": "Iridium Axe",
       "block.oasiscore.white_cherry_fence_gate": "White Cherry Fence Gate",
@@ -970,7 +1053,8 @@
       "enchantment.oasiscore.enchant_fall_damage_1": "Falling Destruction",
       "item.oasiscore.rhodium_pickaxe": "Rhodium Pickaxe",
       "block.oasiscore.white_cherry_planks": "White Cherry Planks",
-      "item.oasiscore.rhodium_ingot": "Rhodium"
+      "item.oasiscore.rhodium_ingot": "Rhodium",
+      "itemGroup.taboasis_core_tab": "Oasis Core"
     }
   },
   "foldersRoot": {
@@ -1002,7 +1086,7 @@
     "modid": "oasiscore",
     "modName": "OasisCore",
     "version": "1.0.0",
-    "author": "user, MCreator",
+    "author": "kifirer, omicrownYT, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
@@ -1012,6 +1096,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.oasiscore",
     "lockBaseModFiles": false
   },

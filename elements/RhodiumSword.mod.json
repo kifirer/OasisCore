@@ -8,7 +8,7 @@
     "name": "Rhodium Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:OasisCoreTab"
     },
     "toolType": "Sword",
     "harvestLevel": 6,

@@ -6,10 +6,10 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
+import net.mcreator.oasiscore.itemgroup.OasisCoreTabItemGroup;
 import net.mcreator.oasiscore.OasiscoreModElements;
 
 @OasiscoreModElements.ModElement.Tag
@@ -46,7 +46,7 @@ public class OsniumPickaxeItem extends OasiscoreModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(OsniumIngotItem.block, (int) (1)));
 			}
-		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 1, -3f, new Item.Properties().group(OasisCoreTabItemGroup.tab)) {
 		}.setRegistryName("osnium_pickaxe"));
 	}
 }

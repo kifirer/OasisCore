@@ -6,10 +6,10 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
+import net.mcreator.oasiscore.itemgroup.OasisCoreTabItemGroup;
 import net.mcreator.oasiscore.OasiscoreModElements;
 
 @OasiscoreModElements.ModElement.Tag
@@ -32,11 +32,11 @@ public class IridiumSwordItem extends OasiscoreModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 2f;
+				return 8f;
 			}
 
 			public int getHarvestLevel() {
-				return 4;
+				return 5;
 			}
 
 			public int getEnchantability() {
@@ -46,7 +46,7 @@ public class IridiumSwordItem extends OasiscoreModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(IridiumItem.block, (int) (1)));
 			}
-		}, 3, -3f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -3f, new Item.Properties().group(OasisCoreTabItemGroup.tab)) {
 		}.setRegistryName("iridium_sword"));
 	}
 }

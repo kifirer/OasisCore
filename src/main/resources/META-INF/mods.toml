@@ -8,7 +8,7 @@ version="1.0.0"
 displayName="OasisCore"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="user, MCreator"
+authors="kifirer, omicrownYT, MCreator"
 
 [[dependencies.oasiscore]]
     modId="minecraft"

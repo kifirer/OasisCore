@@ -1,0 +1,39 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "iridium_sword_complete",
+    "customModelName": "Normal",
+    "name": "Pure Iridium Sword",
+    "specialInfo": [
+      "Bloodlust"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:OasisCoreTab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 5,
+    "efficiency": 12.0,
+    "attackSpeed": 1.0,
+    "enchantability": 35,
+    "damageVsEntity": 15.0,
+    "usageCount": 1255,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:IridiumSword"
+      },
+      {
+        "value": "CUSTOM:Iridium"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "IridiumSwordCompleteLivingEntityIsHitWithTool"
+    }
+  }
+}

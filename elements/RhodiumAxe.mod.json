@@ -8,7 +8,7 @@
     "name": "Rhodium Axe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:OasisCoreTab"
     },
     "toolType": "Axe",
     "harvestLevel": 6,

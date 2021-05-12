@@ -8,7 +8,7 @@
     "name": "Iridium",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:OasisCoreTab"
     },
     "stackSize": 64,
     "enchantability": 0,
