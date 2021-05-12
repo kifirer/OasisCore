@@ -36,7 +36,7 @@ public class IridiumPickaxeItem extends OasiscoreModElements.ModElement {
 			}
 
 			public int getHarvestLevel() {
-				return 4;
+				return 5;
 			}
 
 			public int getEnchantability() {
