@@ -1,0 +1,13 @@
+{
+  "group": "oasiscore",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:whitecherry_log"
+    }
+  ],
+  "result": {
+    "item": "oasiscore:white_cherry_planks",
+    "count": 4
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:OsniumIngot"
+      },
+      {
+        "value": "CUSTOM:OsniumIngot"
+      },
+      {
+        "value": "CUSTOM:OsniumIngot"
+      },
+      {
+        "value": "CUSTOM:OsniumIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:OsniumIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:OsniumArmor.helmet"
+    },
+    "name": "osnium_armor_helmet_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "oasiscore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "oasiscore:osnium_ingot"
+    },
+    "1": {
+      "item": "oasiscore:osnium_ingot"
+    },
+    "2": {
+      "item": "oasiscore:osnium_ingot"
+    },
+    "3": {
+      "item": "oasiscore:osnium_ingot"
+    },
+    "4": {
+      "item": "oasiscore:osnium_ingot"
+    },
+    "5": {
+      "item": "oasiscore:osnium_ingot"
+    },
+    "6": {
+      "item": "oasiscore:osnium_ingot"
+    },
+    "7": {
+      "item": "oasiscore:osnium_ingot"
+    },
+    "8": {
+      "item": "oasiscore:osnium_ingot"
+    }
+  },
+  "result": {
+    "item": "oasiscore:osnium_block",
+    "count": 1
+  }
+}

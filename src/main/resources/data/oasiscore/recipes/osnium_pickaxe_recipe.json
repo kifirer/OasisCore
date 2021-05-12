@@ -1,0 +1,30 @@
+{
+  "group": "oasiscore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "oasiscore:osnium_ingot"
+    },
+    "1": {
+      "item": "oasiscore:osnium_ingot"
+    },
+    "2": {
+      "item": "oasiscore:osnium_ingot"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "oasiscore:osnium_pickaxe",
+    "count": 1
+  }
+}

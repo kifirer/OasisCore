@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "oasiscore:blocks/rhodium_ore_block",
+    "particle": "oasiscore:blocks/rhodium_ore_block"
+  }
+}

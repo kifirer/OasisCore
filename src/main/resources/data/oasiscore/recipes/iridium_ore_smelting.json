@@ -1,0 +1,12 @@
+{
+  "group": "oasiscore",
+  "type": "minecraft:smelting",
+  "experience": 1.54,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "oasiscore:iridium_ore"
+  },
+  "result": {
+    "item": "oasiscore:iridium"
+  }
+}

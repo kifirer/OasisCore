@@ -1,0 +1,13 @@
+{
+  "group": "oasiscore",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "oasiscore:osnium_block"
+    }
+  ],
+  "result": {
+    "item": "oasiscore:osnium_ingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "group": "oasiscore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "oasiscore:iridium"
+    },
+    "1": {
+      "item": "oasiscore:iridium"
+    },
+    "2": {
+      "item": "oasiscore:iridium"
+    },
+    "3": {
+      "item": "oasiscore:iridium"
+    },
+    "5": {
+      "item": "oasiscore:iridium"
+    }
+  },
+  "result": {
+    "item": "oasiscore:iridium_armor_helmet",
+    "count": 1
+  }
+}

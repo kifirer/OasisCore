@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "oasiscore:blocks/whitecherry_planks",
+    "top": "oasiscore:blocks/whitecherry_planks",
+    "side": "oasiscore:blocks/whitecherry_planks"
+  }
+}

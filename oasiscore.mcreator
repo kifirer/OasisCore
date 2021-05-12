@@ -1,0 +1,1019 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "RhodiumIngot",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rhodium_ingot",
+      "path": "~/rhodium"
+    },
+    {
+      "name": "RhodiumOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rhodium_ore",
+      "path": "~/rhodium"
+    },
+    {
+      "name": "RhodiumBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rhodium_block",
+      "path": "~/rhodium"
+    },
+    {
+      "name": "RhodiumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rhodium_ore_block_recipe",
+      "path": "~/rhodium"
+    },
+    {
+      "name": "RhodiumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rhodium_block_ore_recipe",
+      "path": "~/rhodium"
+    },
+    {
+      "name": "RhodiumOreSmelting",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rhodium_ore_smelting",
+      "path": "~/rhodium"
+    },
+    {
+      "name": "RhodiumPickaxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rhodium_pickaxe",
+      "path": "~/rhodium"
+    },
+    {
+      "name": "RhodiumAxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rhodium_axe",
+      "path": "~/rhodium"
+    },
+    {
+      "name": "RhodiumSword",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rhodium_sword",
+      "path": "~/rhodium"
+    },
+    {
+      "name": "RhodiumShovel",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rhodium_shovel",
+      "path": "~/rhodium"
+    },
+    {
+      "name": "RhodiumHoe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rhodium_hoe",
+      "path": "~/rhodium"
+    },
+    {
+      "name": "RhodiumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rhodium_pickaxe_recipe",
+      "path": "~/rhodium"
+    },
+    {
+      "name": "RhodiumAxeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rhodium_axe_recipe",
+      "path": "~/rhodium"
+    },
+    {
+      "name": "RhodiumSwordRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rhodium_sword_recipe",
+      "path": "~/rhodium"
+    },
+    {
+      "name": "RhodiumShovelRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rhodium_shovel_recipe",
+      "path": "~/rhodium"
+    },
+    {
+      "name": "RhodiumHoeRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rhodium_hoe_recipe",
+      "path": "~/rhodium"
+    },
+    {
+      "name": "RhodiumArmor",
+      "type": "armor",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rhodium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/rhodium"
+    },
+    {
+      "name": "RhodiumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rhodium_armor_helmet_recipe",
+      "path": "~/rhodium"
+    },
+    {
+      "name": "RhodiumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rhodium_armor_body_recipe",
+      "path": "~/rhodium"
+    },
+    {
+      "name": "RhodiumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rhodium_armor_leggings_recipe",
+      "path": "~/rhodium"
+    },
+    {
+      "name": "RhodiumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rhodium_armor_boots_recipe",
+      "path": "~/rhodium"
+    },
+    {
+      "name": "ProcedureEnchantment1",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "procedure_enchantment_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/enchantments"
+    },
+    {
+      "name": "EnchantXpHealing",
+      "type": "enchantment",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enchant_xp_healing",
+      "path": "~/enchantments"
+    },
+    {
+      "name": "OsniumIngot",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osnium_ingot",
+      "path": "~/osnium"
+    },
+    {
+      "name": "OsniumOre",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osnium_ore",
+      "path": "~/osnium"
+    },
+    {
+      "name": "OsniumBlock",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osnium_block",
+      "path": "~/osnium"
+    },
+    {
+      "name": "OsniumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osnium_ore_block_recipe",
+      "path": "~/osnium"
+    },
+    {
+      "name": "OsniumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osnium_block_ore_recipe",
+      "path": "~/osnium"
+    },
+    {
+      "name": "OsniumOreSmelting",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osnium_ore_smelting",
+      "path": "~/osnium"
+    },
+    {
+      "name": "OsniumPickaxe",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osnium_pickaxe",
+      "path": "~/osnium"
+    },
+    {
+      "name": "OsniumAxe",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osnium_axe",
+      "path": "~/osnium"
+    },
+    {
+      "name": "OsniumSword",
+      "type": "tool",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osnium_sword",
+      "path": "~/osnium"
+    },
+    {
+      "name": "OsniumShovel",
+      "type": "tool",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osnium_shovel",
+      "path": "~/osnium"
+    },
+    {
+      "name": "OsniumHoe",
+      "type": "tool",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osnium_hoe",
+      "path": "~/osnium"
+    },
+    {
+      "name": "OsniumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osnium_pickaxe_recipe",
+      "path": "~/osnium"
+    },
+    {
+      "name": "OsniumAxeRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osnium_axe_recipe",
+      "path": "~/osnium"
+    },
+    {
+      "name": "OsniumSwordRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osnium_sword_recipe",
+      "path": "~/osnium"
+    },
+    {
+      "name": "OsniumShovelRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osnium_shovel_recipe",
+      "path": "~/osnium"
+    },
+    {
+      "name": "OsniumHoeRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osnium_hoe_recipe",
+      "path": "~/osnium"
+    },
+    {
+      "name": "OsniumArmor",
+      "type": "armor",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osnium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/osnium"
+    },
+    {
+      "name": "OsniumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osnium_armor_helmet_recipe",
+      "path": "~/osnium"
+    },
+    {
+      "name": "OsniumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osnium_armor_body_recipe",
+      "path": "~/osnium"
+    },
+    {
+      "name": "OsniumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osnium_armor_leggings_recipe",
+      "path": "~/osnium"
+    },
+    {
+      "name": "OsniumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osnium_armor_boots_recipe",
+      "path": "~/osnium"
+    },
+    {
+      "name": "Iridium",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iridium",
+      "path": "~/iridium"
+    },
+    {
+      "name": "IridiumOre",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iridium_ore",
+      "path": "~/iridium"
+    },
+    {
+      "name": "IridiumBlock",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iridium_block",
+      "path": "~/iridium"
+    },
+    {
+      "name": "IridiumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iridium_ore_block_recipe",
+      "path": "~/iridium"
+    },
+    {
+      "name": "IridiumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iridium_block_ore_recipe",
+      "path": "~/iridium"
+    },
+    {
+      "name": "IridiumOreSmelting",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iridium_ore_smelting",
+      "path": "~/iridium"
+    },
+    {
+      "name": "IridiumPickaxe",
+      "type": "tool",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iridium_pickaxe",
+      "path": "~/iridium"
+    },
+    {
+      "name": "IridiumAxe",
+      "type": "tool",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iridium_axe",
+      "path": "~/iridium"
+    },
+    {
+      "name": "IridiumSword",
+      "type": "tool",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iridium_sword",
+      "path": "~/iridium"
+    },
+    {
+      "name": "IridiumShovel",
+      "type": "tool",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iridium_shovel",
+      "path": "~/iridium"
+    },
+    {
+      "name": "IridiumHoe",
+      "type": "tool",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iridium_hoe",
+      "path": "~/iridium"
+    },
+    {
+      "name": "IridiumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iridium_pickaxe_recipe",
+      "path": "~/iridium"
+    },
+    {
+      "name": "IridiumAxeRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iridium_axe_recipe",
+      "path": "~/iridium"
+    },
+    {
+      "name": "IridiumSwordRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iridium_sword_recipe",
+      "path": "~/iridium"
+    },
+    {
+      "name": "IridiumShovelRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iridium_shovel_recipe",
+      "path": "~/iridium"
+    },
+    {
+      "name": "IridiumHoeRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iridium_hoe_recipe",
+      "path": "~/iridium"
+    },
+    {
+      "name": "IridiumArmor",
+      "type": "armor",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iridium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/iridium"
+    },
+    {
+      "name": "IridiumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iridium_armor_helmet_recipe",
+      "path": "~/iridium"
+    },
+    {
+      "name": "IridiumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iridium_armor_body_recipe",
+      "path": "~/iridium"
+    },
+    {
+      "name": "IridiumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iridium_armor_leggings_recipe",
+      "path": "~/iridium"
+    },
+    {
+      "name": "IridiumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iridium_armor_boots_recipe",
+      "path": "~/iridium"
+    },
+    {
+      "name": "WhiteCherryWood",
+      "type": "block",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_cherry_wood",
+      "path": "~/cherrywhite"
+    },
+    {
+      "name": "WhiteCherryLog",
+      "type": "block",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_cherry_log",
+      "path": "~/cherrywhite"
+    },
+    {
+      "name": "WhiteCherryPlanks",
+      "type": "block",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_cherry_planks",
+      "path": "~/cherrywhite"
+    },
+    {
+      "name": "WhiteCherryLeaves",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_cherry_leaves",
+      "path": "~/cherrywhite"
+    },
+    {
+      "name": "WhiteCherryStairs",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_cherry_stairs",
+      "path": "~/cherrywhite"
+    },
+    {
+      "name": "WhiteCherrySlab",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_cherry_slab",
+      "path": "~/cherrywhite"
+    },
+    {
+      "name": "WhiteCherryFence",
+      "type": "block",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_cherry_fence",
+      "path": "~/cherrywhite"
+    },
+    {
+      "name": "WhiteCherryFenceGate",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_cherry_fence_gate",
+      "path": "~/cherrywhite"
+    },
+    {
+      "name": "WhiteCherryItemsTag",
+      "type": "tag",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_cherry_items_tag",
+      "path": "~/cherrywhite"
+    },
+    {
+      "name": "WhiteCherryWoodRecipe",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_cherry_wood_recipe",
+      "path": "~/cherrywhite"
+    },
+    {
+      "name": "WhiteCherryPlanksRecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_cherry_planks_recipe",
+      "path": "~/cherrywhite"
+    },
+    {
+      "name": "WhiteCherryStairsRecipe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_cherry_stairs_recipe",
+      "path": "~/cherrywhite"
+    },
+    {
+      "name": "WhiteCherrySlabRecipe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_cherry_slab_recipe",
+      "path": "~/cherrywhite"
+    },
+    {
+      "name": "WhiteCherryFenceRecipe",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_cherry_fence_recipe",
+      "path": "~/cherrywhite"
+    },
+    {
+      "name": "WhiteCherryFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_cherry_fence_gate_recipe",
+      "path": "~/cherrywhite"
+    },
+    {
+      "name": "WhiteCherryStickRecipe",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_cherry_stick_recipe",
+      "path": "~/cherrywhite"
+    },
+    {
+      "name": "CherryWhiteBiome",
+      "type": "biome",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_white_biome"
+    },
+    {
+      "name": "ProcedureEnchantFallDamage1",
+      "type": "procedure",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "procedure_enchant_fall_damage_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/enchantments"
+    },
+    {
+      "name": "EnchantFallDamage1",
+      "type": "enchantment",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enchant_fall_damage_1",
+      "path": "~/enchantments"
+    },
+    {
+      "name": "EnchantDeadlyCriticals",
+      "type": "enchantment",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enchant_deadly_criticals",
+      "path": "~/enchantments"
+    },
+    {
+      "name": "ProcedureEnchantDeadlyCrits",
+      "type": "procedure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "procedure_enchant_deadly_crits",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/enchantments"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.oasiscore.osnium_armor_boots": "Osnium Boots",
+      "block.oasiscore.white_cherry_log": "White Cherry Log",
+      "item.oasiscore.rhodium_shovel": "Rhodium Shovel",
+      "block.oasiscore.rhodium_ore": "Rhodium Ore",
+      "block.oasiscore.white_cherry_fence": "White Cherry Fence",
+      "item.oasiscore.osnium_armor_leggings": "Osnium Leggings",
+      "enchantment.oasiscore.enchant_xp_healing": "Experience Hungry",
+      "item.oasiscore.rhodium_armor_helmet": "Rhodium Helmet",
+      "block.oasiscore.white_cherry_wood": "White Cherry Wood",
+      "biome.oasiscore.cherry_white_biome": "Cherry White Forest UwU",
+      "block.oasiscore.white_cherry_leaves": "White Cherry Leaves",
+      "item.oasiscore.iridium": "Iridium",
+      "item.oasiscore.rhodium_armor_leggings": "Rhodium Leggings",
+      "item.oasiscore.rhodium_armor_chestplate": "Rhodium Chestplate",
+      "item.oasiscore.rhodium_axe": "Rhodium Axe",
+      "item.oasiscore.osnium_shovel": "Osnium Shovel",
+      "block.oasiscore.iridium_block": "Block of Iridium",
+      "item.oasiscore.rhodium_sword": "Rhodium Sword",
+      "item.oasiscore.osnium_armor_helmet": "Osnium Helmet",
+      "block.oasiscore.iridium_ore": "Iridium Ore",
+      "item.oasiscore.rhodium_hoe": "Rhodium Hoe",
+      "block.oasiscore.osnium_block": "Block of Osnium",
+      "item.oasiscore.iridium_armor_boots": "Iridium Boots",
+      "item.oasiscore.iridium_pickaxe": "Iridium Pickaxe",
+      "item.oasiscore.iridium_shovel": "Iridium Shovel",
+      "block.oasiscore.osnium_ore": "Osnium Ore",
+      "enchantment.oasiscore.enchant_deadly_criticals": "Deadly Criticals",
+      "block.oasiscore.white_cherry_slab": "White Cherry Slab",
+      "item.oasiscore.osnium_ingot": "Osnium",
+      "block.oasiscore.rhodium_block": "Block of Rhodium",
+      "item.oasiscore.iridium_axe": "Iridium Axe",
+      "block.oasiscore.white_cherry_fence_gate": "White Cherry Fence Gate",
+      "item.oasiscore.iridium_armor_leggings": "Iridium Leggings",
+      "item.oasiscore.iridium_hoe": "Iridium Hoe",
+      "item.oasiscore.iridium_sword": "Iridium Sword",
+      "item.oasiscore.iridium_armor_chestplate": "Iridium Chestplate",
+      "item.oasiscore.osnium_axe": "Osnium Axe",
+      "item.oasiscore.rhodium_armor_boots": "Rhodium Boots",
+      "item.oasiscore.osnium_pickaxe": "Osnium Pickaxe",
+      "item.oasiscore.osnium_armor_chestplate": "Osnium Chestplate",
+      "item.oasiscore.osnium_sword": "Osnium Sword",
+      "item.oasiscore.osnium_hoe": "Osnium Hoe",
+      "item.oasiscore.iridium_armor_helmet": "Iridium Helmet",
+      "block.oasiscore.white_cherry_stairs": "White Cherry Stairs",
+      "enchantment.oasiscore.enchant_fall_damage_1": "Falling Destruction",
+      "item.oasiscore.rhodium_pickaxe": "Rhodium Pickaxe",
+      "block.oasiscore.white_cherry_planks": "White Cherry Planks",
+      "item.oasiscore.rhodium_ingot": "Rhodium"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "rhodium",
+        "children": []
+      },
+      {
+        "name": "enchantments",
+        "children": []
+      },
+      {
+        "name": "osnium",
+        "children": []
+      },
+      {
+        "name": "iridium",
+        "children": []
+      },
+      {
+        "name": "cherrywhite",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "oasiscore",
+    "modName": "OasisCore",
+    "version": "1.0.0",
+    "author": "user, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.oasiscore",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

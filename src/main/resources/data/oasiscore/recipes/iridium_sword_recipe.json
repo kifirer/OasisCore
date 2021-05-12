@@ -1,0 +1,24 @@
+{
+  "group": "oasiscore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "oasiscore:iridium"
+    },
+    "1": {
+      "item": "oasiscore:iridium"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "oasiscore:iridium_sword",
+    "count": 1
+  }
+}

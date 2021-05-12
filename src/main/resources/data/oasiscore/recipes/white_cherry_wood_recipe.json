@@ -1,0 +1,26 @@
+{
+  "group": "oasiscore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "oasiscore:white_cherry_log"
+    },
+    "1": {
+      "item": "oasiscore:white_cherry_log"
+    },
+    "2": {
+      "item": "oasiscore:white_cherry_log"
+    },
+    "3": {
+      "item": "oasiscore:white_cherry_log"
+    }
+  },
+  "result": {
+    "item": "oasiscore:white_cherry_wood",
+    "count": 3
+  }
+}

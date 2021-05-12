@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "oasiscore:blocks/whitecherry_planks",
+    "particle": "oasiscore:blocks/whitecherry_planks"
+  }
+}

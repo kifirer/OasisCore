@@ -1,0 +1,30 @@
+{
+  "group": "oasiscore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "oasiscore:osnium_ingot"
+    },
+    "1": {
+      "item": "oasiscore:osnium_ingot"
+    },
+    "2": {
+      "item": "oasiscore:osnium_ingot"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "oasiscore:osnium_axe",
+    "count": 1
+  }
+}

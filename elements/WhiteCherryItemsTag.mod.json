@@ -1,0 +1,20 @@
+{
+  "_fv": 18,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:WhiteCherryWood"
+      },
+      {
+        "value": "CUSTOM:WhiteCherryLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "whitecherry_log",
+    "namespace": "forge"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "oasiscore:block/osnium_block"
+    }
+  }
+}

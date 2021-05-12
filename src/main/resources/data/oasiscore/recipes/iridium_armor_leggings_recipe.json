@@ -1,0 +1,36 @@
+{
+  "group": "oasiscore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "oasiscore:iridium"
+    },
+    "1": {
+      "item": "oasiscore:iridium"
+    },
+    "2": {
+      "item": "oasiscore:iridium"
+    },
+    "3": {
+      "item": "oasiscore:iridium"
+    },
+    "5": {
+      "item": "oasiscore:iridium"
+    },
+    "6": {
+      "item": "oasiscore:iridium"
+    },
+    "8": {
+      "item": "oasiscore:iridium"
+    }
+  },
+  "result": {
+    "item": "oasiscore:iridium_armor_leggings",
+    "count": 1
+  }
+}

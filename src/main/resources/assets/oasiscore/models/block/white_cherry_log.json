@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "oasiscore:blocks/whitecherry_log_top",
+    "up": "oasiscore:blocks/whitecherry_log_top",
+    "north": "oasiscore:blocks/whitecherry_log_side",
+    "east": "oasiscore:blocks/whitecherry_log_side",
+    "south": "oasiscore:blocks/whitecherry_log_side",
+    "west": "oasiscore:blocks/whitecherry_log_side",
+    "particle": "oasiscore:blocks/whitecherry_log_top"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "group": "oasiscore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "oasiscore:osnium_ingot"
+    },
+    "1": {
+      "item": "oasiscore:osnium_ingot"
+    },
+    "2": {
+      "item": "oasiscore:osnium_ingot"
+    },
+    "3": {
+      "item": "oasiscore:osnium_ingot"
+    },
+    "5": {
+      "item": "oasiscore:osnium_ingot"
+    }
+  },
+  "result": {
+    "item": "oasiscore:osnium_armor_helmet",
+    "count": 1
+  }
+}

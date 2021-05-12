@@ -1,0 +1,30 @@
+{
+  "group": "oasiscore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "oasiscore:rhodium_ingot"
+    },
+    "1": {
+      "item": "oasiscore:rhodium_ingot"
+    },
+    "2": {
+      "item": "oasiscore:rhodium_ingot"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "oasiscore:rhodium_axe",
+    "count": 1
+  }
+}

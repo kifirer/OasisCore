@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:WhiteCherryLog"
+      },
+      {
+        "value": "CUSTOM:WhiteCherryLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:WhiteCherryLog"
+      },
+      {
+        "value": "CUSTOM:WhiteCherryLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WhiteCherryWood"
+    },
+    "name": "white_cherry_wood_recipe",
+    "namespace": "mod"
+  }
+}

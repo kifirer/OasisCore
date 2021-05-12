@@ -1,0 +1,36 @@
+{
+  "group": "oasiscore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "oasiscore:rhodium_ingot"
+    },
+    "1": {
+      "item": "oasiscore:rhodium_ingot"
+    },
+    "2": {
+      "item": "oasiscore:rhodium_ingot"
+    },
+    "3": {
+      "item": "oasiscore:rhodium_ingot"
+    },
+    "5": {
+      "item": "oasiscore:rhodium_ingot"
+    },
+    "6": {
+      "item": "oasiscore:rhodium_ingot"
+    },
+    "8": {
+      "item": "oasiscore:rhodium_ingot"
+    }
+  },
+  "result": {
+    "item": "oasiscore:rhodium_armor_leggings",
+    "count": 1
+  }
+}

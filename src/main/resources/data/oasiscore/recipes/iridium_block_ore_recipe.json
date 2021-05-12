@@ -1,0 +1,13 @@
+{
+  "group": "oasiscore",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "oasiscore:iridium_block"
+    }
+  ],
+  "result": {
+    "item": "oasiscore:iridium",
+    "count": 9
+  }
+}

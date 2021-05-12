@@ -1,0 +1,13 @@
+{
+  "group": "oasiscore",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "oasiscore:rhodium_block"
+    }
+  ],
+  "result": {
+    "item": "oasiscore:rhodium_ingot",
+    "count": 9
+  }
+}
