@@ -35,7 +35,7 @@ public class ProcedureEnchantHealthOverHealthProcedure extends OasiscoreModEleme
 		Entity entity = (Entity) dependencies.get("entity");
 		if ((((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getMaxHealth() : -1) > ((entity instanceof LivingEntity)
 				? ((LivingEntity) entity).getHealth()
-				: -1)) && (((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).getFoodStats().getFoodLevel() : 0) > 0))
+				: -1)) && (((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).getFoodStats().getFoodLevel() : 0) > 4))
 				&& ((entity instanceof PlayerEntity) && (((EnchantmentHelper.getEnchantmentLevel(EnchantHealthOverHealthEnchantment.enchantment,
 						((entity instanceof LivingEntity)
 								? ((LivingEntity) entity)
