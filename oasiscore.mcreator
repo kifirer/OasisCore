@@ -1093,6 +1093,42 @@
         ]
       },
       "path": "~/enchantments"
+    },
+    {
+      "name": "EnchantTripleHit",
+      "type": "enchantment",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enchant_triple_hit",
+      "path": "~/enchantments"
+    },
+    {
+      "name": "TripleHit",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "triple_hit",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "imediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/enchantments"
     }
   ],
   "variable_elements": [],
@@ -1102,15 +1138,16 @@
       "item.oasiscore.osnium_armor_boots": "Osnium Boots",
       "block.oasiscore.white_cherry_log": "White Cherry Log",
       "item.oasiscore.item_iridium_stick": "Iridium Stick",
-      "item.oasiscore.rhodium_shovel": "Rhodium Shovel",
       "block.oasiscore.rhodium_ore": "Rhodium Ore",
+      "item.oasiscore.rhodium_shovel": "Rhodium Shovel",
       "item.oasiscore.iridium_pickaxe_complete": "Pure Iridium Pickaxe",
       "block.oasiscore.white_cherry_fence": "White Cherry Fence",
       "item.oasiscore.osnium_armor_leggings": "Osnium Leggings",
-      "enchantment.oasiscore.enchant_xp_healing": "Experience Hungry",
       "item.oasiscore.rhodium_armor_helmet": "Rhodium Helmet",
+      "enchantment.oasiscore.enchant_xp_healing": "Experience Hungry",
       "block.oasiscore.white_cherry_wood": "White Cherry Wood",
       "biome.oasiscore.cherry_white_biome": "Cherry White Forest UwU",
+      "enchantment.oasiscore.enchant_triple_hit": "Triple Hit",
       "block.oasiscore.white_cherry_leaves": "White Cherry Leaves",
       "enchantment.oasiscore.enchant_hallucinations": "Hallucinations",
       "item.oasiscore.iridium": "Iridium",

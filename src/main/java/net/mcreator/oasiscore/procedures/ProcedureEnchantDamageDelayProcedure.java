@@ -54,32 +54,30 @@ public class ProcedureEnchantDamageDelayProcedure extends OasiscoreModElements.M
 						((imediatesourceentity instanceof LivingEntity)
 								? ((LivingEntity) imediatesourceentity).getHeldItemOffhand()
 								: ItemStack.EMPTY)) != 0)))) {
-			if ((Math.random() < 0.4)) {
-				new Object() {
-					private int ticks = 0;
-					private float waitTicks;
-					private IWorld world;
-					public void start(IWorld world, int waitTicks) {
-						this.waitTicks = waitTicks;
-						MinecraftForge.EVENT_BUS.register(this);
-						this.world = world;
-					}
+			new Object() {
+				private int ticks = 0;
+				private float waitTicks;
+				private IWorld world;
+				public void start(IWorld world, int waitTicks) {
+					this.waitTicks = waitTicks;
+					MinecraftForge.EVENT_BUS.register(this);
+					this.world = world;
+				}
 
-					@SubscribeEvent
-					public void tick(TickEvent.ServerTickEvent event) {
-						if (event.phase == TickEvent.Phase.END) {
-							this.ticks += 1;
-							if (this.ticks >= this.waitTicks)
-								run();
-						}
+				@SubscribeEvent
+				public void tick(TickEvent.ServerTickEvent event) {
+					if (event.phase == TickEvent.Phase.END) {
+						this.ticks += 1;
+						if (this.ticks >= this.waitTicks)
+							run();
 					}
+				}
 
-					private void run() {
-						entity.attackEntityFrom(DamageSource.GENERIC, (float) 4.5);
-						MinecraftForge.EVENT_BUS.unregister(this);
-					}
-				}.start(world, (int) 90);
-			}
+				private void run() {
+					entity.attackEntityFrom(DamageSource.GENERIC, (float) 4.5);
+					MinecraftForge.EVENT_BUS.unregister(this);
+				}
+			}.start(world, (int) 90);
 		}
 	}
 
