@@ -1,29 +1,11 @@
 package net.mcreator.oasiscore.procedures;
 
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.entity.living.LivingAttackEvent;
-import net.minecraftforge.event.TickEvent;
-import net.minecraftforge.common.MinecraftForge;
-
-import net.minecraft.world.World;
-import net.minecraft.world.IWorld;
-import net.minecraft.util.DamageSource;
-import net.minecraft.item.ItemStack;
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.Entity;
-import net.minecraft.enchantment.EnchantmentHelper;
-
-import net.mcreator.oasiscore.enchantment.EnchantTripleHitEnchantment;
-import net.mcreator.oasiscore.OasiscoreModElements;
-import net.mcreator.oasiscore.OasiscoreMod;
-
-import java.util.Map;
-import java.util.HashMap;
-
 @OasiscoreModElements.ModElement.Tag
 public class TripleHitProcedure extends OasiscoreModElements.ModElement {
+
 	public TripleHitProcedure(OasiscoreModElements instance) {
 		super(instance, 100);
+
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
@@ -43,9 +25,11 @@ public class TripleHitProcedure extends OasiscoreModElements.ModElement {
 				OasiscoreMod.LOGGER.warn("Failed to load dependency world for procedure TripleHit!");
 			return;
 		}
+
 		Entity entity = (Entity) dependencies.get("entity");
 		Entity imediatesourceentity = (Entity) dependencies.get("imediatesourceentity");
 		IWorld world = (IWorld) dependencies.get("world");
+
 		if ((((EnchantmentHelper.getEnchantmentLevel(EnchantTripleHitEnchantment.enchantment,
 				((imediatesourceentity instanceof LivingEntity)
 						? ((LivingEntity) imediatesourceentity).getHeldItemOffhand()
@@ -55,9 +39,11 @@ public class TripleHitProcedure extends OasiscoreModElements.ModElement {
 								? ((LivingEntity) imediatesourceentity).getHeldItemMainhand()
 								: ItemStack.EMPTY)) != 0)))) {
 			new Object() {
+
 				private int ticks = 0;
 				private float waitTicks;
 				private IWorld world;
+
 				public void start(IWorld world, int waitTicks) {
 					this.waitTicks = waitTicks;
 					MinecraftForge.EVENT_BUS.register(this);
@@ -76,9 +62,11 @@ public class TripleHitProcedure extends OasiscoreModElements.ModElement {
 				private void run() {
 					entity.attackEntityFrom(DamageSource.GENERIC, (float) 7);
 					new Object() {
+
 						private int ticks = 0;
 						private float waitTicks;
 						private IWorld world;
+
 						public void start(IWorld world, int waitTicks) {
 							this.waitTicks = waitTicks;
 							MinecraftForge.EVENT_BUS.register(this);
@@ -97,9 +85,11 @@ public class TripleHitProcedure extends OasiscoreModElements.ModElement {
 						private void run() {
 							entity.attackEntityFrom(DamageSource.GENERIC, (float) 7);
 							new Object() {
+
 								private int ticks = 0;
 								private float waitTicks;
 								private IWorld world;
+
 								public void start(IWorld world, int waitTicks) {
 									this.waitTicks = waitTicks;
 									MinecraftForge.EVENT_BUS.register(this);
@@ -118,9 +108,11 @@ public class TripleHitProcedure extends OasiscoreModElements.ModElement {
 								private void run() {
 									entity.attackEntityFrom(DamageSource.GENERIC, (float) 7);
 									new Object() {
+
 										private int ticks = 0;
 										private float waitTicks;
 										private IWorld world;
+
 										public void start(IWorld world, int waitTicks) {
 											this.waitTicks = waitTicks;
 											MinecraftForge.EVENT_BUS.register(this);
@@ -138,19 +130,28 @@ public class TripleHitProcedure extends OasiscoreModElements.ModElement {
 
 										private void run() {
 											entity.attackEntityFrom(DamageSource.GENERIC, (float) 7);
+
 											MinecraftForge.EVENT_BUS.unregister(this);
 										}
+
 									}.start(world, (int) 2);
+
 									MinecraftForge.EVENT_BUS.unregister(this);
 								}
+
 							}.start(world, (int) 2);
+
 							MinecraftForge.EVENT_BUS.unregister(this);
 						}
+
 					}.start(world, (int) 2);
+
 					MinecraftForge.EVENT_BUS.unregister(this);
 				}
+
 			}.start(world, (int) 2);
 		}
+
 	}
 
 	@SubscribeEvent
@@ -177,4 +178,5 @@ public class TripleHitProcedure extends OasiscoreModElements.ModElement {
 			this.executeProcedure(dependencies);
 		}
 	}
+
 }
