@@ -1093,6 +1093,54 @@
         ]
       },
       "path": "~/enchantments"
+    },
+    {
+      "name": "EnchantStrip",
+      "type": "enchantment",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enchant_strip",
+      "path": "~/enchantments"
+    },
+    {
+      "name": "ProcedureEnchantStrip",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "procedure_enchant_strip",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "imediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/enchantments"
     }
   ],
   "variable_elements": [],
@@ -1102,13 +1150,13 @@
       "item.oasiscore.osnium_armor_boots": "Osnium Boots",
       "block.oasiscore.white_cherry_log": "White Cherry Log",
       "item.oasiscore.item_iridium_stick": "Iridium Stick",
-      "item.oasiscore.rhodium_shovel": "Rhodium Shovel",
       "block.oasiscore.rhodium_ore": "Rhodium Ore",
+      "item.oasiscore.rhodium_shovel": "Rhodium Shovel",
       "item.oasiscore.iridium_pickaxe_complete": "Pure Iridium Pickaxe",
       "block.oasiscore.white_cherry_fence": "White Cherry Fence",
       "item.oasiscore.osnium_armor_leggings": "Osnium Leggings",
-      "enchantment.oasiscore.enchant_xp_healing": "Experience Hungry",
       "item.oasiscore.rhodium_armor_helmet": "Rhodium Helmet",
+      "enchantment.oasiscore.enchant_xp_healing": "Experience Hungry",
       "block.oasiscore.white_cherry_wood": "White Cherry Wood",
       "biome.oasiscore.cherry_white_biome": "Cherry White Forest UwU",
       "block.oasiscore.white_cherry_leaves": "White Cherry Leaves",
@@ -1153,7 +1201,8 @@
       "item.oasiscore.rhodium_pickaxe": "Rhodium Pickaxe",
       "block.oasiscore.white_cherry_planks": "White Cherry Planks",
       "item.oasiscore.rhodium_ingot": "Rhodium",
-      "itemGroup.taboasis_core_tab": "Oasis Core"
+      "itemGroup.taboasis_core_tab": "Oasis Core",
+      "enchantment.oasiscore.enchant_strip": "Striptease"
     }
   },
   "foldersRoot": {
