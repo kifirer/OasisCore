@@ -61,7 +61,7 @@ public class ProcedureEnchantment1Procedure extends OasiscoreModElements.ModElem
 																: ItemStack.EMPTY)) != 0)))))))) {
 			if (entity instanceof LivingEntity)
 				((LivingEntity) entity).setHealth((float) (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHealth() : -1)
-						+ (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getMaxHealth() : -1) / 4)));
+						+ (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getMaxHealth() : -1) / 10)));
 		}
 	}
 
