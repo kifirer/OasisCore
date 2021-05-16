@@ -1173,6 +1173,42 @@
         ]
       },
       "path": "~/enchantments"
+    },
+    {
+      "name": "EnchantTripleHit",
+      "type": "enchantment",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enchant_triple_hit",
+      "path": "~/enchantments"
+    },
+    {
+      "name": "TripleHit",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "triple_hit",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "imediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/enchantments"
     }
   ],
   "variable_elements": [],
@@ -1203,7 +1239,6 @@
       "item.oasiscore.rhodium_sword": "Rhodium Sword",
       "item.oasiscore.osnium_armor_helmet": "Osnium Helmet",
       "block.oasiscore.iridium_ore": "Iridium Ore",
-      "enchantment.oasiscore.enchant_everyones_poison": "Everyone\u0027s Poison",
       "enchantment.oasiscore.enchant_health_over_health": "Health Over Health",
       "item.oasiscore.rhodium_hoe": "Rhodium Hoe",
       "block.oasiscore.osnium_block": "Block of Osnium",
@@ -1234,13 +1269,16 @@
       "item.oasiscore.rhodium_pickaxe": "Rhodium Pickaxe",
       "block.oasiscore.white_cherry_planks": "White Cherry Planks",
       "item.oasiscore.rhodium_ingot": "Rhodium",
-      "itemGroup.taboasis_core_tab": "Oasis Core",
-      "enchantment.oasiscore.enchant_strip": "Striptease"
+      "itemGroup.taboasis_core_tab": "Oasis Core"
     }
   },
   "foldersRoot": {
     "name": "~",
     "children": [
+      {
+        "name": "osnium",
+        "children": []
+      },
       {
         "name": "rhodium",
         "children": []
@@ -1250,15 +1288,11 @@
         "children": []
       },
       {
-        "name": "osnium",
+        "name": "cherrywhite",
         "children": []
       },
       {
         "name": "iridium",
-        "children": []
-      },
-      {
-        "name": "cherrywhite",
         "children": []
       }
     ]

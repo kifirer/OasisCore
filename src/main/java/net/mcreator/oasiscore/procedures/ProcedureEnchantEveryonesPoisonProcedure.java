@@ -1,29 +1,11 @@
 package net.mcreator.oasiscore.procedures;
 
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.entity.living.LivingAttackEvent;
-import net.minecraftforge.common.MinecraftForge;
-
-import net.minecraft.world.World;
-import net.minecraft.potion.Effects;
-import net.minecraft.potion.EffectInstance;
-import net.minecraft.item.ItemStack;
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.Entity;
-import net.minecraft.entity.CreatureAttribute;
-import net.minecraft.enchantment.EnchantmentHelper;
-
-import net.mcreator.oasiscore.enchantment.EnchantEveryonesPoisonEnchantment;
-import net.mcreator.oasiscore.OasiscoreModElements;
-import net.mcreator.oasiscore.OasiscoreMod;
-
-import java.util.Map;
-import java.util.HashMap;
-
 @OasiscoreModElements.ModElement.Tag
 public class ProcedureEnchantEveryonesPoisonProcedure extends OasiscoreModElements.ModElement {
+
 	public ProcedureEnchantEveryonesPoisonProcedure(OasiscoreModElements instance) {
 		super(instance, 102);
+
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
@@ -38,8 +20,10 @@ public class ProcedureEnchantEveryonesPoisonProcedure extends OasiscoreModElemen
 				OasiscoreMod.LOGGER.warn("Failed to load dependency imediatesourceentity for procedure ProcedureEnchantEveryonesPoison!");
 			return;
 		}
+
 		Entity entity = (Entity) dependencies.get("entity");
 		Entity imediatesourceentity = (Entity) dependencies.get("imediatesourceentity");
+
 		if ((((EnchantmentHelper.getEnchantmentLevel(EnchantEveryonesPoisonEnchantment.enchantment,
 				((imediatesourceentity instanceof LivingEntity)
 						? ((LivingEntity) imediatesourceentity).getHeldItemOffhand()
@@ -56,6 +40,7 @@ public class ProcedureEnchantEveryonesPoisonProcedure extends OasiscoreModElemen
 					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.POISON, (int) 600, (int) 5));
 			}
 		}
+
 	}
 
 	@SubscribeEvent
@@ -82,4 +67,5 @@ public class ProcedureEnchantEveryonesPoisonProcedure extends OasiscoreModElemen
 			this.executeProcedure(dependencies);
 		}
 	}
+
 }

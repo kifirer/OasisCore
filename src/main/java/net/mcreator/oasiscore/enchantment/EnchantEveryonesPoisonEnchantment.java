@@ -1,18 +1,12 @@
 
 package net.mcreator.oasiscore.enchantment;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.inventory.EquipmentSlotType;
-import net.minecraft.enchantment.EnchantmentType;
-import net.minecraft.enchantment.Enchantment;
-
-import net.mcreator.oasiscore.OasiscoreModElements;
-
 @OasiscoreModElements.ModElement.Tag
 public class EnchantEveryonesPoisonEnchantment extends OasiscoreModElements.ModElement {
+
 	@ObjectHolder("oasiscore:enchant_everyones_poison")
 	public static final Enchantment enchantment = null;
+
 	public EnchantEveryonesPoisonEnchantment(OasiscoreModElements instance) {
 		super(instance, 101);
 	}
@@ -21,7 +15,9 @@ public class EnchantEveryonesPoisonEnchantment extends OasiscoreModElements.ModE
 	public void initElements() {
 		elements.enchantments.add(() -> new CustomEnchantment(EquipmentSlotType.MAINHAND).setRegistryName("enchant_everyones_poison"));
 	}
+
 	public static class CustomEnchantment extends Enchantment {
+
 		public CustomEnchantment(EquipmentSlotType... slots) {
 			super(Enchantment.Rarity.VERY_RARE, EnchantmentType.WEAPON, slots);
 		}
@@ -50,5 +46,7 @@ public class EnchantEveryonesPoisonEnchantment extends OasiscoreModElements.ModE
 		public boolean isAllowedOnBooks() {
 			return true;
 		}
+
 	}
+
 }

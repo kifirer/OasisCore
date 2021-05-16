@@ -2,24 +2,24 @@
 package net.mcreator.oasiscore.enchantment;
 
 @OasiscoreModElements.ModElement.Tag
-public class EnchantStripEnchantment extends OasiscoreModElements.ModElement {
+public class EnchantTripleHitEnchantment extends OasiscoreModElements.ModElement {
 
-	@ObjectHolder("oasiscore:enchant_strip")
+	@ObjectHolder("oasiscore:enchant_triple_hit")
 	public static final Enchantment enchantment = null;
 
-	public EnchantStripEnchantment(OasiscoreModElements instance) {
+	public EnchantTripleHitEnchantment(OasiscoreModElements instance) {
 		super(instance, 99);
 	}
 
 	@Override
 	public void initElements() {
-		elements.enchantments.add(() -> new CustomEnchantment(EquipmentSlotType.MAINHAND).setRegistryName("enchant_strip"));
+		elements.enchantments.add(() -> new CustomEnchantment(EquipmentSlotType.MAINHAND).setRegistryName("enchant_triple_hit"));
 	}
 
 	public static class CustomEnchantment extends Enchantment {
 
 		public CustomEnchantment(EquipmentSlotType... slots) {
-			super(Enchantment.Rarity.VERY_RARE, EnchantmentType.WEAPON, slots);
+			super(Enchantment.Rarity.UNCOMMON, EnchantmentType.WEAPON, slots);
 		}
 
 		@Override
